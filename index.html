@@ -30,11 +30,7 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<!-- Navigation Expand Button -->
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			    </a>
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="position: absolute; top: 40px; right: 20px; color: #fff; text-shadow: none;"><div style="float: left; margin-right: 10px; position: relative; top: 2px;"><i class="icon-bar icon-white"></i><i class="icon-bar icon-white"></i><i class="icon-bar icon-white"></i></div> NAVIGATION</a>
 			    <!-- Desktop Navigation -->
 			    <a href="index.html"><img id="logo" src="./img/bcs_logo_small_white.png" alt="Bar &amp; Club Stats"/></a>
 			    <ul class="nav visible-desktop" style="float: right;">
@@ -64,23 +60,19 @@
 	<div id="home-callout-wrap">
 		<div class="container" id="home-callout-inner">
 			<div class="row" style="position: relative;">
-	    		<div class="span12 hidden-desktop" id="callout-text">
-		    		<div style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;">
-		    			<iframe src="http://player.vimeo.com/video/22633007?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	    			</div>
-		    		<h2>Understand your customers better than ever before.</h2>
-		    		<p>The Bar &amp; Club Stats app allows your bar or venue to gather analytics about your customers while protecting it from underage drinking.</p>
-		    		<a class="btn" href="features.html">Product Features</a> <a class="btn btn-primary" href="products.html">View Our Prodcucts &raquo;</a>
-	    		</div>
 	    		<div class="span6 visible-desktop" id="callout-text">
-	    			<div style="position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0;">
-		    			<iframe src="http://player.vimeo.com/video/22633007?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	    			</div>
-		    		<h1>Understand your customers better than ever before.</h1>
-		    		<p>The Bar &amp; Club Stats app allows your bar or venue to gather analytics about your customers while protecting it from underage drinking.</p>
-		    		<a class="btn btn-large" href="features.html">Product Features</a> <a class="btn btn-large btn-primary" href="products.html">View Our Prodcucts &raquo;</a>
+		    		<h1>An easier way to check IDs &amp; collect statistics about your customers.</h1>
+		    		<p>Bar &amp; Club Stats provides the newest technology in ID scanning &amp; the ability to anonymously collect statistics about who comes to your club or venue.</p>
+		    		<a class="btn btn-large btn-primary" href="features.html">Learn More</a> <a class="btn btn-large btn-warning" href="product-detail.html">Purchase Scanner &raquo;</a>
 	    		</div>
-	    		<img src="./img/phone4.png" id="phone-preview" class="visible-desktop"/>
+	    		<div class="span6 visible-desktop" id="desktop_preview">
+	    			<img src="./img/laptop_dashboard.png" />
+	    		</div>
+	    		<div class="span12 hidden-desktop" id="callout-mobile">
+	    			<h1>An easier way to check IDs &amp; collect statistics about your customers.</h1>
+		    		<p>Bar &amp; Club Stats provides the newest technology in ID scanning &amp; the ability to anonymously collect statistics about who comes to your club or venue.</p>
+		    		<a class="btn btn-large btn-primary" href="features.html">Learn More</a> <a class="btn btn-large btn-warning" href="product-detail.html">Purchase Scanner &raquo;</a>
+	    		</div>
 			</div>
 		</div>
 	</div>
@@ -89,66 +81,25 @@
 	<!-- Home Page - Main Content -->
     <div class="container">
 	    <div class="row">
-	    	<div class="span12" style="margin-bottom: 15px; margin-top: 20px;">
-	    		<h1>Why Bar &amp; Club Stats?</h1>
-	    	</div>
-	    	<div class="span4">
-	    		<div class="well visible-desktop">
-	    			<h3><i class="icon-user"></i> Know your customers</h3>
+	    	<div class="span3">
+	    		<div class="well">
+	    			<h3>Protect your venue</h3>
 	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
 	    		</div>
 	    	</div>
-	    	<div class="span4 visible-desktop">
+	    	<div class="span3">
 	    		<div class="well">
-	    			<h3><i class="icon-globe"></i> Protect your venue</h3>
+	    			<h3>Know your customers</h3>
 	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
 	    		</div>
 	    	</div>
-	    	<div class="span6 hidden-desktop">
+	    	<div class="span6" id="testimonials">
 	    		<div class="well">
-	    			<h3><i class="icon-user"></i> Know your customers</h3>
-	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-	    		</div>
-	    	</div>
-	    	<div class="span6 hidden-desktop">
-	    		<div class="well">
-	    			<h3><i class="icon-globe"></i> Protect your venue</h3>
-	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+		    		<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</em>
+		    		<h3>Santos Party House, NY</h3>
 	    		</div>
 	    	</div>
 	    </div>
-
-	    <hr />
-
-		<div class="row">
-			<div class="span12" style="margin-bottom: 15px; margin-top: 10px;">
-				<h1>Testimonials:</h1>
-			</div>
-	    	<div class="span3">
-	    		<div class="well">
-		    		<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</em>
-		    		<h3>Santos Party House, NY</h3>
-	    		</div>
-	    	</div>
-	    	<div class="span3">
-	    		<div class="well">
-		    		<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</em>
-		    		<h3>Santos Party House, NY</h3>
-	    		</div>
-	    	</div>
-	    	<div class="span3 hidden-phone">
-	    		<div class="well">
-		    		<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</em>
-		    		<h3>Santos Party House, NY</h3>
-	    		</div>
-	    	</div>
-	    	<div class="span3 hidden-phone">
-	    		<div class="well">
-		    		<em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</em>
-		    		<h3>Santos Party House, NY</h3>
-	    		</div>
-	    	</div>
-		</div>
 
 		<hr />
 
